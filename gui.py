@@ -1,8 +1,9 @@
 from tkinter import *
+from tkinter import ttk
 
 root = Tk()
-
-myLabel = Label(root, text="Hi")
+frm = ttk.Frame(root, padding=10)
+myLabel = Label(root, text="Kompensacja ruchu")
 myLabel.pack()
 
-root.mainLoop()
+root.mainloop()
